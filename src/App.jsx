@@ -20,8 +20,6 @@ export default function App() {
     handleSaveData(newTodoList);
   };
 
-  // const handleEditTodo = () => {};
-
   const handleCompleteTodo = (index) => {
     let newTodoList = [...todos];
     let completedTodo = todos[index];
